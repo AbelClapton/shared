@@ -1,0 +1,10 @@
+{
+  "component.button.submit": "Submit",
+  "component.button.cancel": "Cancel",
+  "component.input.placeholder": "Enter text here",
+  "component.label.required": "Required",
+  "component.boollabel.yes": "Yes",
+  "component.boollabel.no": "No",
+  "component.boollabel.pass": "Pass",
+  "component.boollabel.fail": "Fail"
+}

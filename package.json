@@ -1,8 +1,11 @@
 {
-  "name": "shared",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@onejn_test/shared",
+  "version": "1.0.0",
   "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "files": [
     "dist"
   ],
@@ -16,7 +19,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build && tsc --p ./tsconfig-build.json --jsx react-jsx",
+    "build": "vite build && tsc --p ./tsconfig-build.json",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -37,5 +40,8 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
     "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "react-intl": "^7.1.14"
   }
 }
