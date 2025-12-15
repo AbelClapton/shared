@@ -1,6 +1,7 @@
+import { Button as ADButton, type ButtonProps } from 'antd'
 import styles from './index.module.css'
 
-export function Button(props: React.ButtonHTMLAttributes<HTMLButtonElement>) {
+export function Button(props: ButtonProps) {
   const { className, ...restProps } = props
-  return <button className={`${className} ${styles.button}`} {...restProps} />
+  return <ADButton className={`${className} ${styles.button}`} {...restProps} />
 }
